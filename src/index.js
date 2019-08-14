@@ -1,6 +1,6 @@
 'use strict';
 //чекбокс
-const checkbox = document.querySelectorAll('filter-check_checkbox');
+const checkbox = document.querySelectorAll('.filter-check_checkbox');
 checkbox.forEach((elem)=>{
     elem.addEventListener('change', function(){
         if (this.checked){
@@ -10,7 +10,7 @@ checkbox.forEach((elem)=>{
             this.nextElementSibling.classList.remove('checked');
         }
     });
-});
+})
 //end checkbox
 // корзина
 const btnCart = document.getElementById('cart');
