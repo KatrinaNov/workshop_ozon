@@ -1,0 +1,24 @@
+{
+  "name": "workshop_ozon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatrinaNov/workshop_ozon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatrinaNov/workshop_ozon/issues"
+  },
+  "homepage": "https://github.com/KatrinaNov/workshop_ozon#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
